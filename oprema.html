@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blue Gym</title>
+	<link href="style.css" rel="stylesheet">
+	
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+	<script> 
+
+		$(document).ready(function(e){
+			$('.toggle-nav').on('click', function() {
+				$('nav ul').toggleClass('active');
+
+			});
+		});
+	</script>
+</head>
+<body>
+	
+	<header>
+		<div class="logo">
+			<a href="index.html">
+				<img src="img/bluegymlogo.png" alt="blue-gym-logo" class="logo-img"></a>
+			</div>
+
+			<nav class="nav">
+				<ul class="active">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="o-nama.html">O NAMA</a></li>
+					<li><a href="oprema.html" class="currently-active">OPREMA</a></li>
+					<li><a href="clanarina.html">ČLANARINA</a></li>
+					<li><a href="kontakt.html">KONTAKT</a></li>
+				</ul>
+			</nav>
+			<a class="toggle-nav" href="#"><img src="img/menu.png" class="menu-icon" alt="menu icon"></a>
+		</header>
+
+		<div class="cover-oprema"></div>
+
+
+		<div class="row-intro">
+			<p id="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, velit non eveniet temporibus asperiores dolores magni sed modi porro molestiae placeat laudantium odit quibusdam inventore eum illum est nobis neque.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, amet modi ad quia magni fugiat ipsum quidem in vitae. Explicabo, iste, voluptate natus at ipsam fugit assumenda alias illo laudantium?
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, soluta iste eaque nisi assumenda iure provident quos aliquam temporibus aliquid quo a adipisci labore aut voluptatum ipsum doloribus totam accusantium.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, numquam, fugiat, magnam perspiciatis eius maxime omnis quasi nulla quas voluptate ipsum provident distinctio eos reiciendis voluptatibus repudiandae porro rem est.
+			</p>
+		</div>
+
+		<div class="gallery-container cf">
+
+			<div class="responsive">
+				<div class="gallery">
+					<img src="img/bucice.jpg" alt="crne bucice">
+					<div class="desc">Bučice raznih težina</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="gallery">
+					<img src="img/plave-bucice.jpg" alt="plave bucice">
+					<div class="desc">Manje bučice</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="gallery">
+					<img src="img/girje.jpg" alt="roza girje">
+					<div class="desc">Girje</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="gallery">
+					<img src="img/stisni.jpeg" alt="guma za vjezbanje">
+					<div class="desc">Stiskavac</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="gallery">
+					<img src="img/prostirka.jpg" alt="prostirka za vjezbanje">
+					<div class="desc">Prostirke</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="gallery">
+					<img src="img/vreca.png" alt="vreca za udaranje">
+					<div class="desc">Vreća za udaranje</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="gallery">
+					<img src="img/lopta.png" alt="pilates lopta">
+					<div class="desc">Pilates lopta</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="gallery">
+					<img src="img/razni-utezi.png" alt="utezi">
+					<div class="desc">Razni utezi</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="cf"></div>
+
+		<footer>
+			<div class="footer-content">
+				<p>Adresa: Omladinska 116 Osijek</p>
+				<p>Telefon: 031 280 332</p>
+				<a href="https://www.facebook.com/BlueGymOsijek/" target="_blank">Facebook: Blue Gym Osijek</a>
+			</div>
+		</footer>
+	</body>

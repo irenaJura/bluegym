@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blue Gym</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+			<a href="index.html">
+				<img src="img/bluegymlogo.png" alt="blue-gym-logo" class="logo-img"></a>
+			</div>
+
+
+			<nav class="nav" id="nav">
+				<ul class="active">
+					<li><a href="index.html" class="currently-active">HOME</a></li>
+					<li><a href="o-nama.html">O NAMA</a></li>
+					<li><a href="oprema.html">OPREMA</a></li>
+					<li><a href="clanarina.html">ČLANARINA</a></li>
+					<li><a href="kontakt.html">KONTAKT</a></li>
+				</ul>
+
+			</nav>
+			<a class="toggle-nav" href="#"><img src="img/menu.png" class="menu-icon" alt="menu icon"></a>
+		</header>
+
+		<div class="cover-img"></div>
+
+		<main>
+			<div class="row cf">
+
+				<div class="cols">
+					<div class="col-image">
+						<img src="img/zdravlje.jpg" alt="utezi-vaga" class="col-img">
+					</div>
+
+					<div class="col-heading">
+						<h3>Izaberite zdravlje!</h3>
+					</div>
+
+					<div class="col-text">
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, vel, minus et repudiandae distinctio expedita voluptate sint accusantium illum odio ipsum nisi. Autem, culpa, quis fugiat ipsam iure numquam blanditiis!</div>
+					</div>
+				</div>
+
+				<div class="cols">
+					<div class="col-image">
+						<img src="img/oprema.jpg" alt="metalni-utezi" class="col-img">
+					</div>
+
+					<div class="col-heading">
+						<h3>Izaberite najbolju opremu!</h3>
+					</div>
+
+					<div class="col-text">
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, vel, minus et repudiandae distinctio expedita voluptate sint accusantium illum odio ipsum nisi. Autem, culpa, quis fugiat ipsam iure numquam blanditiis!</div>
+					</div>
+				</div>
+
+				<div class="cols">
+					<div class="col-image">
+						<img src="img/trener.jpeg" alt="trener-djevojka-na-benchu" class="col-img">
+					</div>
+
+					<div class="col-heading">
+						<h3>Izaberite najbolje trenere!</h3>
+					</div>
+
+					<div class="col-text">
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, vel, minus et repudiandae distinctio expedita voluptate sint accusantium illum odio ipsum nisi. Autem, culpa, quis fugiat ipsam iure numquam blanditiis!</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="special-offer"> 
+					<div class="personal-image">
+						<img src="img/personal-trainer.jpg" alt="two-guys-training" class="personal-img">
+					</div>
+					<div class="personal-text" id="margin-left"> 
+						<h3>Zašto se trebate učlaniti već danas?</h3>
+						<p>Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut wisi enim ad minim veniam quis nostrud exerci tation.Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut wisi enim ad minim veniam quis nostrud exerci tation.Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut wisi enim ad minim veniam quis nostrud exercitation.
+						</p>
+					</div>
+				</div>
+
+			</div> 
+
+
+			<div class="row">
+
+				<div class="special-offer"> 
+					<div class="personal-image" id="women-img">
+						<img src="img/women-group.jpg" alt="women-pilates" class="personal-img">
+					</div>
+					<div class="personal-text" id="margin-right"> 
+						<h3>Organizirani grupni treninzi</h3>
+						<p>Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut wisi enim ad minim veniam quis nostrud exerci tation.Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut wisi enim ad minim veniam quis nostrud exerci tation.Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna.
+						</p>
+					</div>
+				</div>
+
+			</div> 
+
+		</main>
+
+		<footer>
+			<div class="footer-content">
+				<p>Adresa: Omladinska 116 Osijek</p>
+				<p>Telefon: 031 280 332</p>
+				<a href="https://www.facebook.com/BlueGymOsijek/" target="_blank">Facebook: Blue Gym Osijek</a>
+			</div>
+		</footer>
+
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+		<script> 
+
+			$(document).ready(function(e){
+				$('.toggle-nav').on('click', function() {
+					$('nav ul').toggleClass('active');
+
+				});
+			});
+		</script>
+	</body>
+	</html>

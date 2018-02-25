@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blue Gym</title>
+	<link href="style.css" rel="stylesheet">
+
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+	<script> 
+
+		$(document).ready(function(e){
+			$('.toggle-nav').on('click', function() {
+				$('nav ul').toggleClass('active');
+
+			});
+		});
+	</script>
+</head>
+<body>
+	
+	<header>
+		<div class="logo">
+			<a href="index.html">
+				<img src="img/bluegymlogo.png" alt="blue-gym-logo" class="logo-img"></a>
+			</div>
+
+			<nav class="nav">
+				<ul class="active">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="o-nama.html">O NAMA</a></li>
+					<li><a href="oprema.html">OPREMA</a></li>
+					<li><a href="clanarina.html" class="currently-active">ČLANARINA</a></li>
+					<li><a href="kontakt.html">KONTAKT</a></li>
+				</ul>
+			</nav>
+			<a class="toggle-nav" href="#"><img src="img/menu.png" class="menu-icon" alt="menu icon"></a>
+		</header>
+
+		<div class="cover-clan"></div>
+
+
+
+
+
+		<div class="indiv">
+			<table class="muski-t">
+				<thead>
+					<tr>
+						<th colspan= "2">MUŠKI</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>neograniceno</td>
+						<td>pola mjeseca</td>
+					</tr>
+					<tr>
+						<td>150 kn</td>
+						<td>100 kn</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+
+			<table class="zene-t">
+				<thead>
+					<tr>
+						<th colspan= "4">ŽENE</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>neograniceno</td>
+						<td>pola mjeseca</td>
+						<td>2x tjedno</td>
+						<td>3x tjedno</td>
+					</tr>
+					<tr>	
+						<td>150 kn</td>
+						<td>80 kn</td>
+						<td>120 kn</td>
+						<td>130 kn</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="indiv">
+			<table class="g-table">
+				<thead>
+					<tr>
+						<th colspan= "3">GRUPNI TRENINZI</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>neograniceno</td>
+						<td>3x tjedno</td>
+						<td>2x tjedno</td>
+					</tr>
+					<tr>
+						<td>170 kn</td>
+						<td>150 kn</td>
+						<td>130 kn</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table class="p-table">
+				<thead>
+					<tr>
+						<th colspan= "4">POSEBNI TRENINZI</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>dnevni trening</td>
+						<td>insanity</td>
+						<td>osobni trener</td>
+						<td>6 mj. članarine</td>
+					</tr>
+					<tr>
+						<td>20 kn</td>
+						<td>150 kn ili 50 kn uz članarinu</td>
+						<td>500 kn</td>
+						<td>600 kn</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+
+		<table class="sale">
+			<thead>
+				<tr>
+					<th colspan= "3">POPUSTI</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>plaćanje za 3 mjeseca</td>
+					<td>plaćanje za 6 mjeseci</td>
+					<td>plaćanje za 12 mjeseci</td>
+				</tr>
+				<tr>
+					<td>15%</td>
+					<td>20%</td>
+					<td>25%</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<footer>
+			<div class="footer-content">
+				<p>Adresa: Omladinska 116 Osijek</p>
+				<p>Telefon: 031 280 332</p>
+				<a href="https://www.facebook.com/BlueGymOsijek/" target="_blank">Facebook: Blue Gym Osijek</a>
+			</div>
+		</footer>
+	</body>
